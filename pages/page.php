@@ -32,6 +32,9 @@ class Page {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" href="/pages/collatz.php">Collatz</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/pages/factorial.php">Factorial</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
