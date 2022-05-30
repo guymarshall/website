@@ -1,7 +1,7 @@
 <?php
 
 class Page {
-    function create_page($title, $content) {
+    function create_page($title, $content, $script_js = '') {
         $app_name = 'My Website';
         $head_html = '
         <meta charset="UTF-8">
@@ -60,6 +60,7 @@ class Page {
         </head>
         <body>
             '.$body_html.'
+            <script type="text/javascript">'.$script_js.'</script>
         </body>
         </html>';
 
